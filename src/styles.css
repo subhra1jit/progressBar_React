@@ -1,0 +1,28 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 20px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.checkpoint {
+  position: absolute;
+  left: 0px;
+  background-color: rgb(97, 253, 97);
+  width: 100%;
+  height: 20px;
+}
